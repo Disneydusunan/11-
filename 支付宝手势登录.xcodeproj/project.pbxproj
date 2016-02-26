@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F3026A1C81024900386D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F302691C81024900386D65 /* main.m */; };
+		63F3026D1C81024900386D65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3026C1C81024900386D65 /* AppDelegate.m */; };
+		63F302701C81024900386D65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3026F1C81024900386D65 /* ViewController.m */; };
+		63F302731C81024900386D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F302711C81024900386D65 /* Main.storyboard */; };
+		63F302761C81024900386D65 /* _______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63F302741C81024900386D65 /* _______.xcdatamodeld */; };
+		63F302781C81024900386D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F302771C81024900386D65 /* Assets.xcassets */; };
+		63F3027B1C81024900386D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F302791C81024900386D65 /* LaunchScreen.storyboard */; };
+		63F302861C81024900386D65 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F302851C81024900386D65 /* _______Tests.m */; };
+		63F302911C81024900386D65 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F302901C81024900386D65 /* _______UITests.m */; };
+		63F302A01C8102C000386D65 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3029F1C8102C000386D65 /* LockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F302821C81024900386D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F3025D1C81024900386D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F302641C81024900386D65;
+			remoteInfo = "支付宝手势登录";
+		};
+		63F3028D1C81024900386D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F3025D1C81024900386D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F302641C81024900386D65;
+			remoteInfo = "支付宝手势登录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F302651C81024900386D65 /* 支付宝手势登录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付宝手势登录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F302691C81024900386D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F3026B1C81024900386D65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63F3026C1C81024900386D65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63F3026E1C81024900386D65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63F3026F1C81024900386D65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63F302721C81024900386D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F302751C81024900386D65 /* _______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_______.xcdatamodel"; sourceTree = "<group>"; };
+		63F302771C81024900386D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F3027A1C81024900386D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F3027C1C81024900386D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F302811C81024900386D65 /* 支付宝手势登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "支付宝手势登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F302851C81024900386D65 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		63F302871C81024900386D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3028C1C81024900386D65 /* 支付宝手势登录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "支付宝手势登录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F302901C81024900386D65 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		63F302921C81024900386D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3029E1C8102C000386D65 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		63F3029F1C8102C000386D65 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F302621C81024900386D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3027E1C81024900386D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F302891C81024900386D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F3025C1C81024900386D65 = {
+			isa = PBXGroup;
+			children = (
+				63F302671C81024900386D65 /* 支付宝手势登录 */,
+				63F302841C81024900386D65 /* 支付宝手势登录Tests */,
+				63F3028F1C81024900386D65 /* 支付宝手势登录UITests */,
+				63F302661C81024900386D65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F302661C81024900386D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F302651C81024900386D65 /* 支付宝手势登录.app */,
+				63F302811C81024900386D65 /* 支付宝手势登录Tests.xctest */,
+				63F3028C1C81024900386D65 /* 支付宝手势登录UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F302671C81024900386D65 /* 支付宝手势登录 */ = {
+			isa = PBXGroup;
+			children = (
+				63F3026B1C81024900386D65 /* AppDelegate.h */,
+				63F3026C1C81024900386D65 /* AppDelegate.m */,
+				63F3026E1C81024900386D65 /* ViewController.h */,
+				63F3026F1C81024900386D65 /* ViewController.m */,
+				63F302711C81024900386D65 /* Main.storyboard */,
+				63F3029E1C8102C000386D65 /* LockView.h */,
+				63F3029F1C8102C000386D65 /* LockView.m */,
+				63F302771C81024900386D65 /* Assets.xcassets */,
+				63F302791C81024900386D65 /* LaunchScreen.storyboard */,
+				63F3027C1C81024900386D65 /* Info.plist */,
+				63F302741C81024900386D65 /* _______.xcdatamodeld */,
+				63F302681C81024900386D65 /* Supporting Files */,
+			);
+			path = "支付宝手势登录";
+			sourceTree = "<group>";
+		};
+		63F302681C81024900386D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F302691C81024900386D65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F302841C81024900386D65 /* 支付宝手势登录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63F302851C81024900386D65 /* _______Tests.m */,
+				63F302871C81024900386D65 /* Info.plist */,
+			);
+			path = "支付宝手势登录Tests";
+			sourceTree = "<group>";
+		};
+		63F3028F1C81024900386D65 /* 支付宝手势登录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				63F302901C81024900386D65 /* _______UITests.m */,
+				63F302921C81024900386D65 /* Info.plist */,
+			);
+			path = "支付宝手势登录UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F302641C81024900386D65 /* 支付宝手势登录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F302951C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录" */;
+			buildPhases = (
+				63F302611C81024900386D65 /* Sources */,
+				63F302621C81024900386D65 /* Frameworks */,
+				63F302631C81024900386D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "支付宝手势登录";
+			productName = "支付宝手势登录";
+			productReference = 63F302651C81024900386D65 /* 支付宝手势登录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F302801C81024900386D65 /* 支付宝手势登录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F302981C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录Tests" */;
+			buildPhases = (
+				63F3027D1C81024900386D65 /* Sources */,
+				63F3027E1C81024900386D65 /* Frameworks */,
+				63F3027F1C81024900386D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F302831C81024900386D65 /* PBXTargetDependency */,
+			);
+			name = "支付宝手势登录Tests";
+			productName = "支付宝手势登录Tests";
+			productReference = 63F302811C81024900386D65 /* 支付宝手势登录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63F3028B1C81024900386D65 /* 支付宝手势登录UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3029B1C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录UITests" */;
+			buildPhases = (
+				63F302881C81024900386D65 /* Sources */,
+				63F302891C81024900386D65 /* Frameworks */,
+				63F3028A1C81024900386D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F3028E1C81024900386D65 /* PBXTargetDependency */,
+			);
+			name = "支付宝手势登录UITests";
+			productName = "支付宝手势登录UITests";
+			productReference = 63F3028C1C81024900386D65 /* 支付宝手势登录UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F3025D1C81024900386D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杜苏南";
+				TargetAttributes = {
+					63F302641C81024900386D65 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+					};
+					63F302801C81024900386D65 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+						TestTargetID = 63F302641C81024900386D65;
+					};
+					63F3028B1C81024900386D65 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+						TestTargetID = 63F302641C81024900386D65;
+					};
+				};
+			};
+			buildConfigurationList = 63F302601C81024900386D65 /* Build configuration list for PBXProject "支付宝手势登录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F3025C1C81024900386D65;
+			productRefGroup = 63F302661C81024900386D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F302641C81024900386D65 /* 支付宝手势登录 */,
+				63F302801C81024900386D65 /* 支付宝手势登录Tests */,
+				63F3028B1C81024900386D65 /* 支付宝手势登录UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F302631C81024900386D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3027B1C81024900386D65 /* LaunchScreen.storyboard in Resources */,
+				63F302781C81024900386D65 /* Assets.xcassets in Resources */,
+				63F302731C81024900386D65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3027F1C81024900386D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3028A1C81024900386D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F302611C81024900386D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F302701C81024900386D65 /* ViewController.m in Sources */,
+				63F302A01C8102C000386D65 /* LockView.m in Sources */,
+				63F302761C81024900386D65 /* _______.xcdatamodeld in Sources */,
+				63F3026D1C81024900386D65 /* AppDelegate.m in Sources */,
+				63F3026A1C81024900386D65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3027D1C81024900386D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F302861C81024900386D65 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F302881C81024900386D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F302911C81024900386D65 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F302831C81024900386D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F302641C81024900386D65 /* 支付宝手势登录 */;
+			targetProxy = 63F302821C81024900386D65 /* PBXContainerItemProxy */;
+		};
+		63F3028E1C81024900386D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F302641C81024900386D65 /* 支付宝手势登录 */;
+			targetProxy = 63F3028D1C81024900386D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F302711C81024900386D65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F302721C81024900386D65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F302791C81024900386D65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F3027A1C81024900386D65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F302931C81024900386D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63F302941C81024900386D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F302961C81024900386D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝手势登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63F302971C81024900386D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝手势登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63F302991C81024900386D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "支付宝手势登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/支付宝手势登录.app/支付宝手势登录";
+			};
+			name = Debug;
+		};
+		63F3029A1C81024900386D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "支付宝手势登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/支付宝手势登录.app/支付宝手势登录";
+			};
+			name = Release;
+		};
+		63F3029C1C81024900386D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝手势登录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝手势登录";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63F3029D1C81024900386D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝手势登录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝手势登录";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F302601C81024900386D65 /* Build configuration list for PBXProject "支付宝手势登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F302931C81024900386D65 /* Debug */,
+				63F302941C81024900386D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F302951C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F302961C81024900386D65 /* Debug */,
+				63F302971C81024900386D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F302981C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F302991C81024900386D65 /* Debug */,
+				63F3029A1C81024900386D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F3029B1C81024900386D65 /* Build configuration list for PBXNativeTarget "支付宝手势登录UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3029C1C81024900386D65 /* Debug */,
+				63F3029D1C81024900386D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63F302741C81024900386D65 /* _______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63F302751C81024900386D65 /* _______.xcdatamodel */,
+			);
+			currentVersion = 63F302751C81024900386D65 /* _______.xcdatamodel */;
+			path = "_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63F3025D1C81024900386D65 /* Project object */;
+}
